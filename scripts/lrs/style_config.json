@@ -2,18 +2,19 @@
     "default": {},
     "data": {
         "3089253acdbba84b": {
-            "max_train_epochs": 80,
-            "train_batch_size": 4,
-            "unet_lr": 4e-5,
-            "text_encoder_lr": 2e-5,
+            "max_train_epochs": 100,
+            "train_batch_size": 1,
+            "prior_loss_weight": 0,
+            "unet_lr": 5e-5,
+            "text_encoder_lr": 5e-5,
             "lr_warmup_steps": 100,
             "optimizer_args": [
                 "betas=(0.9, 0.999)",
                 "weight_decay=1e-04",
                 "eps=1e-08"
             ],
-            "noise_offset": 0.0357,
-            "min_snr_gamma": 0
+            "noise_offset": 0.02,
+            "min_snr_gamma": 5
         },
         "eb324bfcad14e8f1d46346f46ae7af7d3e58c3babbc1f699ee7c61baab291369": {
             "max_train_epochs": 22,
