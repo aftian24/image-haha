@@ -1,6 +1,18 @@
 {
     "default": {},
     "data": {
+        "3089253acdbba84b": {
+            "max_train_epochs": 30,
+            "unet_lr": 1e-4,
+            "text_encoder_lr": 5e-5,
+            "optimizer_args": [
+                "betas=(0.9, 0.999)",
+                "weight_decay=0.01",
+                "eps=1e-08"
+            ],
+            "noise_offset": 0.1,
+            "min_snr_gamma": 5
+        },
         "eb324bfcad14e8f1d46346f46ae7af7d3e58c3babbc1f699ee7c61baab291369": {
             "max_train_epochs": 22,
             "optimizer_args": [
@@ -146,7 +158,16 @@
             "min_snr_gamma": 7
         },
         "d90d3201d5b2ca617d1b34ddc57d124b19d33b98cf1e653299b9b6c849acb69b": {
-            "max_train_epochs": 30
+            "max_train_epochs": 30,
+            "unet_lr": 1e-4,
+            "text_encoder_lr": 5e-5,
+            "optimizer_args": [
+                "betas=(0.9, 0.999)",
+                "weight_decay=0.01",
+                "eps=1e-08"
+            ],
+            "noise_offset": 0.1,
+            "min_snr_gamma": 5
         },
         "87a20676586c53891563895be0408c6109b83f1d891700dd6ff6c02a25cd6c47": {
             "max_grad_norm": 1.25,
