@@ -2,15 +2,15 @@
     "default": {},
     "data": {
         "3089253acdbba84b": {
-            "max_train_epochs": 40,
-            "unet_lr": 5e-5,
-            "text_encoder_lr": 5e-5,
+            "max_train_epochs": 50,
+            "unet_lr": 2e-5,
+            "text_encoder_lr": 2e-5,
             "optimizer_args": [
                 "betas=(0.9, 0.999)",
-                "weight_decay=1e-04",
+                "weight_decay=0",
                 "eps=1e-08"
             ],
-            "noise_offset": 0.0357,
+            "noise_offset": 0,
             "min_snr_gamma": 0
         },
         "eb324bfcad14e8f1d46346f46ae7af7d3e58c3babbc1f699ee7c61baab291369": {
